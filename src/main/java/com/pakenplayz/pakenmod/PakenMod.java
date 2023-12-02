@@ -1,6 +1,7 @@
 package com.pakenplayz.pakenmod;
 
 import com.mojang.logging.LogUtils;
+import com.pakenplayz.pakenmod.item.ModItems;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
@@ -19,10 +20,11 @@ public class PakenMod
     public static final String MOD_ID = "pakenmod";
     private static final Logger LOGGER = LogUtils.getLogger();
 
-
     public PakenMod()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+
+        ModItems.register(modEventBus);
 
         modEventBus.addListener(this::commonSetup);
 
