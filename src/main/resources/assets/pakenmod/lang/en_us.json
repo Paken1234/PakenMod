@@ -1,5 +1,8 @@
 {
   "item.pakenmod.pakaenium_ingot": "Pakaenium Ingot",
+  "item.pakenmod.mech_ball": "Mech Ball",
+
+  "block.pakenmod.pakaenium_block": "Block of Pakaenium",
 
   "itemGroup.pakentab": "Paken Tab"
 }

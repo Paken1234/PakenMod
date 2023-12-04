@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "ppp",
+    "ppp",
+    "ppp"
+  ],
+  "key": {
+    "p": {
+      "item": "pakenmod:pakaenium_ingot"
+    }
+  },
+  "result": {
+    "item": "pakenmod:pakaenium_block"
+  }
+}
